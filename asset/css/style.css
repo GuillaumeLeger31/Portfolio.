@@ -433,6 +433,7 @@ section i {
     min-width: 300px;
     padding-left: 50px;
     padding-right: 50px;
+    padding-bottom: 35px;
     height: auto;
     min-height: 400px;
     box-shadow: 20px 20px 50px rgb(0, 0, 0, 0.5);
@@ -485,6 +486,7 @@ section i {
     color: #392a6f;
     box-shadow: 20px 20px 50px rgb(0, 0, 0, 0.5);
     border-radius: var(--border-radius);
+    margin-bottom: 50px;
 }
 .top {
     transform: translateY(-100%);
@@ -507,7 +509,7 @@ section i {
     border-radius: .5rem;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .contact_a {
@@ -568,6 +570,10 @@ section i {
     .menu li {
         transform-origin: 120px;
         transform: rotate(0deg) translateX(90px);
+    }
+
+    .contact_data {
+        margin-top: 0px;
     }
 }
 
@@ -676,6 +682,9 @@ section i {
     .toggle p {
         font-size: 1.1em;
     }
+    .about_card {
+        padding-bottom: 0px;
+    }
 }
 
 @media screen and (max-width: 860px) {
@@ -697,6 +706,10 @@ section i {
     .about_card {
         padding-left: 10px;
         padding-right: 10px;
+        padding-bottom: 0px;
+    }
+    .about_text {
+        margin-bottom: 0px;
     }
 }
 
@@ -719,6 +732,9 @@ section i {
         margin: 15px;
         width: 40%;
         height: 40%;
+    }
+    .about_card {
+        margin-top: 90px;
     }
 }
 
